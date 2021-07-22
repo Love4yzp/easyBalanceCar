@@ -22,11 +22,13 @@
 
 #### 使用说明
 
-#### MPU6050 代码来源
+#### MPU6050
 曾尝试过将国内的代码进行整合，无奈国内嵌入式开发者都没有相应的数据结构·算法素养，导致移植困难，于是找到如下库，进行了整合
 - [MPU6050 卡尔曼滤波(Kalman filter)](https://github.com/leech001/MPU6050)
 - [tm 通用MPU6050库 INT中断函数](https://github.com/MaJerle/stm32fxxx-hal-libraries)
-
+#### OLED
+GitHub 中顺便找的 SSD1306库实现的。
+在[Display Library](https://github.com/anothermist/DISPLAYS)中有各种开发环境的库
 ### END
 ---
 代码暂未进行处理。
