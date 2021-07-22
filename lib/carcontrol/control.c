@@ -3,7 +3,7 @@
 //
 
 #include "control.h"
-#include "tm_stm32_mpu6050.h"
+#include "mpu6050.h"
 #include  "math.h"
 
 // Kalman structure

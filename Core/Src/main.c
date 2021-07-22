@@ -28,7 +28,7 @@
 /* USER CODE BEGIN Includes */
 #include "ssd1306.h"
 #include "control.h"
-#include "tm_stm32_mpu6050.h"
+#include "mpu6050.h"
 #include "retarget.h"
 /* USER CODE END Includes */
 
