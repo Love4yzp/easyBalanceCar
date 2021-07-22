@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ban.elf.dir/Core/Src/gpio.c.obj"
+  "CMakeFiles/ban.elf.dir/Core/Src/i2c.c.obj"
+  "CMakeFiles/ban.elf.dir/Core/Src/main.c.obj"
+  "CMakeFiles/ban.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+  "CMakeFiles/ban.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+  "CMakeFiles/ban.elf.dir/Core/Src/syscalls.c.obj"
+  "CMakeFiles/ban.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+  "CMakeFiles/ban.elf.dir/Core/Src/tim.c.obj"
+  "CMakeFiles/ban.elf.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+  "CMakeFiles/ban.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+  "CMakeFiles/ban.elf.dir/lib/carcontrol/control.c.obj"
+  "CMakeFiles/ban.elf.dir/lib/mpu6050/mpu6050.c.obj"
+  "CMakeFiles/ban.elf.dir/lib/mpu6050/tm_stm32_gpio.c.obj"
+  "CMakeFiles/ban.elf.dir/lib/mpu6050/tm_stm32_i2c.c.obj"
+  "CMakeFiles/ban.elf.dir/lib/oled/fonts.c.obj"
+  "CMakeFiles/ban.elf.dir/lib/oled/ssd1306.c.obj"
+  "CMakeFiles/ban.elf.dir/lib/oled/test.c.obj"
+  "CMakeFiles/ban.elf.dir/lib/print/retarget.c.obj"
+  "CMakeFiles/ban.elf.dir/startup/startup_stm32f103xb.s.obj"
+  "ban.elf"
+  "ban.elf.manifest"
+  "ban.elf.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/ban.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

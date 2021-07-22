@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ban"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/YZP/Desktop/ban/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/YZP/Desktop/ban/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ban.elf">
+				<Option output="C:/Users/YZP/Desktop/ban/cmake-build-debug/ban.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/YZP/Desktop/ban/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Core/Inc"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib/carcontrol"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib/mpu6050"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib/oled"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib/print"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 ban.elf"/>
+					<CompileFile command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ban.elf/fast">
+				<Option output="C:/Users/YZP/Desktop/ban/cmake-build-debug/ban.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/YZP/Desktop/ban/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Core/Inc"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib/carcontrol"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib/mpu6050"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib/oled"/>
+					<Add directory="C:/Users/YZP/Desktop/ban/lib/print"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="d:\programmer\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 ban.elf/fast"/>
+					<CompileFile command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/YZP/Desktop/ban/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programmer/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/YZP/Desktop/ban/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Inc/gpio.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Inc/i2c.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Inc/main.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Inc/stm32f1xx_it.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Inc/tim.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Inc/usart.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/gpio.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/i2c.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/main.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/stm32f1xx_it.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/syscalls.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/system_stm32f1xx.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/tim.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Core/Src/usart.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/STM32F103C8Tx_FLASH.ld">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/carcontrol/control.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/carcontrol/control.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/mpu6050/mpu6050.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/mpu6050/tm_stm32_gpio.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/mpu6050/tm_stm32_gpio.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/mpu6050/tm_stm32_i2c.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/mpu6050/tm_stm32_i2c.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/mpu6050/tm_stm32_mpu6050.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/oled/bitmap.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/oled/fonts.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/oled/fonts.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/oled/horse_anim.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/oled/ssd1306.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/oled/ssd1306.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/oled/test.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/oled/test.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/print/retarget.c">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/print/retarget.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/lib/stm32Config.h">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/startup/startup_stm32f103xb.s">
+			<Option target="ban.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/YZP/Desktop/ban/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

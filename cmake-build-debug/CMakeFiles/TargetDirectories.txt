@@ -1,0 +1,3 @@
+C:/Users/YZP/Desktop/ban/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/YZP/Desktop/ban/cmake-build-debug/CMakeFiles/ban.elf.dir
+C:/Users/YZP/Desktop/ban/cmake-build-debug/CMakeFiles/edit_cache.dir
