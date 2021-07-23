@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Update
+name: BalanceCar
 
 # Controls when the workflow will run
 on:
@@ -37,4 +37,6 @@ jobs:
           
       - name: Metrics embed
         uses: lowlighter/metrics@v3.10
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
 
